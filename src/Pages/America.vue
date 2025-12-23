@@ -1,6 +1,6 @@
 <script setup>
-import Topbar from "@/components/Topbar.vue";
-import AmericaImageLoader from "@/components/AmericaImageLoader.vue";
+import Topbar from "@/Components/Topbar.vue";
+import AmericaImageLoader from "@/Components/AmericaImageLoader.vue";
 </script>
 
 <template>

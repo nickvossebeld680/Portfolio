@@ -1,6 +1,6 @@
 <script setup>
- import Topbar from "@/components/Topbar.vue";
-  import Swiper from "@/components/Swiper.vue";
+ import Topbar from "@/Components/Topbar.vue";
+  import Swiper from "@/Components/Swiper.vue";
  import { RouterLink } from 'vue-router';
 </script>
 

@@ -1,7 +1,7 @@
 <script setup>
 import 'swiper/css';
 
-import Topbar from "@/Components/Topbar.vue";
+import Topbar from '@/Components/Topbar.vue';
 import AutoSwiper from "@/Components/AutoSwiper.vue";
 // import Swiper from "@/Components/Swiper.vue";
 </script>
