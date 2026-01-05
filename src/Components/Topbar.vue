@@ -82,7 +82,7 @@ onUnmounted(() => {
     </svg>
 
     <nav>
-      <div v-if="menuOpen" class="absolute top-16 left-0 w-full h-full backdrop-blur-sm py-4 flex flex-col items-center justify-center gap-4 z-10">
+      <div v-if="menuOpen" class="absolute top-16 left-0 w-full h-full backdrop-blur-lg py-4 flex flex-col items-center justify-center gap-4 z-10">
         <RouterLink @click="toggleMenu" to="/Work" class="text-po-200 font-bold text-2xl">Work</RouterLink>
         <RouterLink @click="toggleMenu" to="/about" class="text-po-200 font-bold text-2xl">About Me</RouterLink>
         <a @click="toggleMenu" href="mailto:0357236@student.rocvantwente.nl?subject=Hi Nick, I'd like to get in touch" target="_blank" rel="noopener noreferrer">
