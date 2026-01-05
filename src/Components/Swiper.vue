@@ -1,7 +1,6 @@
 <script setup>
 
 import Swiper from 'swiper';
-import { EffectCoverflow, Pagination, Keyboard, Navigation} from "swiper/modules";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -14,7 +13,12 @@ onMounted(() => {
     effect: 'coverflow',
     centeredSlides: true,
     slidesPerView: 1.2,
-    initialSlide: 1,
+    initialSlide: 4,
+
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+    },
 
     breakpoints : {
       640: {
@@ -32,9 +36,16 @@ onMounted(() => {
   <div>
     <div class="swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Party.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Party.jpg" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Netflix.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/bmw_m_1000_rr_low_res.jpg.avif" alt=""></div>
         <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Gym.png" alt=""></div>
-        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Hogsmeade.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Programmeren.jpg" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Jurgen-Langezaal-concept.webp" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/ABT-Audi-RS6-LE-main.jpg" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Reizen.jpg" alt=""></div>
+        <div class="swiper-slide"><img class="w-140 h-120 object-cover rounded-2xl" src="/Fotografie.jpg" alt=""></div>
+
       </div>
     </div>
   </div>
